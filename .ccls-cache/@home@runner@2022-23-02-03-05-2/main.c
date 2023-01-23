@@ -1,11 +1,15 @@
-// TODO: write a program that reverses a character arrray
 #include <stdio.h>
 #include <string.h>
 
 int main() {
-  char s1[] = "racecar";
-  char s2[] = ""
-  size_t len_s1 = strlen(s1);
   
+  char s1[] = "Hello World";
+  int len = strlen(s1) -1;
+
+  while(len >=0) {
+    printf("c\n", s1[len]);
+    len--;
+  }
+
   return 0;
 }
